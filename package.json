@@ -1,0 +1,39 @@
+{
+  "name": "caderaBack",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "dependencies": {
+    "apollo-server-express": "2.22.2",
+    "bcrypt": "^5.0.1",
+    "connect-timeout": "^1.9.0",
+    "cookie-parser": "~1.4.5",
+    "cors": "^2.8.5",
+    "debug": "~4.3.1",
+    "dotenv": "^8.2.0",
+    "express": "~4.17.1",
+    "express-fileupload": "^1.2.1",
+    "fs": "0.0.1-security",
+    "graphql": "^15.5.0",
+    "graphql-iso-date": "^3.6.1",
+    "graphql-subscriptions": "^1.2.1",
+    "graphql-type-json": "^0.3.2",
+    "graphql-upload": "^11.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "levenshtein": "^1.0.5",
+    "moment": "^2.29.1",
+    "morgan": "~1.10.0",
+    "node-cron": "^3.0.0",
+    "pg-promise": "^10.9.5",
+    "querystring": "^0.2.1",
+    "request": "^2.88.2",
+    "soap": "^0.42.0",
+    "uniqid": "^5.3.0",
+    "validator": "^13.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
